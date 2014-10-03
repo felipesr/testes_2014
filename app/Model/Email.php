@@ -1,0 +1,28 @@
+<?php
+	class Email extends AppModel {
+        public $useTable = 'emails';
+        public $order = array('email' => 'ASC');
+        public $displayField = 'email';
+		//public $hasMany = array('Palestra');
+
+		/*public $validate = array(
+
+			'nome' => array(
+				'rule' => 'notEmpty', // Não vazio
+				'message' => 'Preencha o nome'
+			),
+
+			'descricao' => array(
+				'rule' => 'notEmpty', // Não vazio
+				'message' => 'Preencha descrição'
+			),
+
+			'url' => array(
+				'rule' => 'url', // Não vazio
+				'message' => 'Preencha a URL corretamente'
+			)
+
+		);*/
+
+	}
+?>
